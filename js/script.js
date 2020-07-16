@@ -64,7 +64,7 @@ var switchMenuToActive = function () {
 document.addEventListener("DOMContentLoaded", function (event) {
   showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
-  homeHtml,
+  homeHtmlUrl,
   function (responseText) {
     document.querySelector("#main-content")
       .innerHTML = responseText;

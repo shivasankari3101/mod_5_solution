@@ -105,6 +105,9 @@ function buildAndShowHomeHTML (categories) {
       var chosenCategoryShortName =chooseRandomCategory (categories);
       chosenCategoryShortName=chosenCategoryShortName.short_name; 
       
+      
+      
+     
 
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
